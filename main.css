@@ -44,14 +44,14 @@ ul {
     border-bottom: 2px solid orange;
 }
 #brand h2 {
-    font-size: 500%;
+    font-size: 400%;
 }
 
 #newsletter{
 
 background: darkgray;
 text-align: center;
-border-bottom: 1px solid orange;
+border-bottom: 2px solid orange;
 }
 
 #newsletter [type="email"]{
