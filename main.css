@@ -12,6 +12,7 @@ body {
 }
 
 header {
+    
     background-color:#f4f4f4;
     text-align: center;  
     border-bottom: 1px solid orange;
@@ -19,7 +20,8 @@ header {
     min-height:70px;       
 }
 header img {
-    width: 15%
+    padding-bottom: 5%;
+    width: 15%;
 }
 
 header a {
@@ -28,6 +30,13 @@ header a {
     text-transform: uppercase;
     padding: 5%;
     font-size: 120%;
+    transition: 0.5s;  
+}
+header a:hover{
+color: orange;
+text-shadow: 5px 5px 5px black;
+font-size: 130%;
+    
 }
 
 header #fixed {
@@ -47,11 +56,10 @@ transition: 0.5s;
 }
 
 header #fixed:hover {
-
 background-color: orange;
 color: black;
-
 }
+
 ul {
     margin:0px;
     padding:0px;
