@@ -28,6 +28,28 @@ header a {
     text-transform: uppercase;
     padding: 5%;
     font-size: 120%;
+}
+
+header #fixed {
+box-shadow: 5px 2px 10px orange;
+font-weight: 800;
+font-family: 'ZCOOL XiaoWei', serif;
+position: fixed;
+right: 1%;
+top: 5%;
+width:3%;
+height: 5%;
+border: none;
+border-radius: 50%;
+background-color: black;
+color: white;
+transition: 0.5s;
+}
+
+header #fixed:hover {
+
+background-color: orange;
+color: black;
 
 }
 ul {
@@ -47,34 +69,63 @@ ul {
     font-size: 400%;
 }
 
-#newsletter{
 
-background: darkgray;
+#newsletter{
+padding-bottom: 2%;
+margin-bottom: 1%;
 text-align: center;
 border-bottom: 2px solid orange;
+}
+#newsletter .mark {
+    color: orange;
 }
 
 #newsletter [type="email"]{
     padding: 1%;
     width: 50%;
     text-align: center;
-    
 }
-#newsletter [type="submit"]{
-    padding: 1%; 
+
+#newsletter button {
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 140%;
+    background-color: orange;
+    color: white;
+    width: 52.2%;
+    border: none;
+    margin: 1%;
+    cursor: pointer;
+    transition: 0.6s;
 }
 
 #boxes {
-    margin-top: 20px;
+    margin-top: 50px;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 240%;
 }
 #boxes .box{
 text-align: center;
 width: 25%;
 padding: 5% 0 0 6.5%;
 float: left;
-
+transition: 0.8s;
 
 }
+.box:hover{
+    border-left: 3px solid yellowgreen;
+    border-top: 2px solid orange;
+    border-radius: 80%;
+    transition: 0.7s;
+    text-shadow: 50px 30px 30px;
+    font-weight: bold;
+}
+.box  p:hover #boxes img:hover{
+    transition: 0.7s;
+    text-shadow: 50px 30px 30px;
+    font-weight: bold;  
+}
+
 #boxes img {
     width: 40%;
     border: 2px solid orange;
